@@ -5,14 +5,21 @@ void exibeMensagemBoasVindas() {
 }
 
 int geraNumeroAleatorio() {
-    return 10;
+    Random randObj = new Random();
+    return randObj.Next(100);
 }
+
+int numero         = geraNumeroAleatorio();
+int opcaoEscolhida = 0;
 
 do
 {
     exibeMensagemBoasVindas();
-    int numero = geraNumeroAleatorio();
-    Console.WriteLine($"Numero {numero}");
-} while (false);
+
+    Console.Write("\nDigite uma opção ");
+    opcaoEscolhida = int.Parse(Console.ReadLine()!);
+    
+
+} while ((numero != opcaoEscolhida) && (opcaoEscolhida != -1));
 
 Console.WriteLine("Thau!");
