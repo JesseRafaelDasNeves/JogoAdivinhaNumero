@@ -1,6 +1,6 @@
 # Jogo adivinha número feito com a linguagem C#
 
-Este é um projeto tem o objetovo de praticar a linguagem C# com um jogo de adivinhação.
+Este é um projeto tem o objetivo de praticar a linguagem C# com um jogo de adivinhação de número.
 
 Neste jogo, o programa gera um número aleatório entre 1 e 100 e o usuário deve adivinhar qual é esse número. O programa utiliza o if-else e switch case para verificar se o número digitado pelo usuário é maior ou menor do que o número gerado pelo programa.
 
