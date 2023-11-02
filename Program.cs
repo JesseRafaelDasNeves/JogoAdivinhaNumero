@@ -22,6 +22,12 @@ do
         Console.Write("\nDigite um numero de 0 a 100 para adivinhar ou -1 para sair ");
     } else {
         Console.WriteLine("Não acertou, tente novamente!");
+
+        if(numero > opcaoEscolhida) {
+            Console.WriteLine("O numero é Maior!");
+        } else if(numero < opcaoEscolhida) {
+            Console.WriteLine("O numero é Menor!");
+        }
         Console.Write("\nDigite um numero de 0 a 100 para adivinhar ou -1 para sair ");
     }
     
